@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>King Lear: The Many Meanings of Nature</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: #ffffff;
+    margin: 0;
+    padding: 40px 20px;
+    color: #2c2c2c;
+}
+
+h1 {
+    font-family: "Segoe UI", Helvetica, Arial;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    letter-spacing: 0.3px;
+}
+
+.matrix {
+    display: grid;
+    grid-template-columns: 110px 1.4fr 1fr;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 1400px;
+    margin: 0 auto;
+    background: white;
+}
+
+.cell {
+    padding: 16px 18px;
+    border-bottom: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    font-size: 0.92rem;
+    line-height: 1.32rem;
+}
+
+/* SCENE COLUMN (left) — four pastel greens, repeating */
+.scene { color: black; font-weight: 700; font-size: 1rem; display:flex; align-items:center; justify-content:center; }
+.g1 { background: #B7E4C7; border-right: 2px solid #95D5B2; }
+.g2 { background: #95D5B2; border-right: 2px solid #70C1A0; }
+.g3 { background: #70C1A0; border-right: 2px solid #4DA08B; }
+.g4 { background: #4DA08B; border-right: 2px solid #397A6A; }
+
+/* COLUMN HEADERS (top row) — pastel colours */
+.header-col {
+    font-weight: 600;
+    font-size: 1.05rem;
+    text-align: center;
+    color: black;
+}
+.header-col:nth-child(1) { background: #DDEFE3; }
+.header-col:nth-child(2) { background: #B3E5FC; } /* pastel sky blue */
+.header-col:nth-child(3) { background: #FFE0B2; } /* pastel sandy */
+.header-col:nth-child(4) { background: #E1BEE7; } /* pastel plum */
+
+.quote { font-style: italic; }
+
+.cell:not(.header-col):not(.scene):hover {
+    background: #f0f8f4;
+}
+</style>
+</head>
+<body>
+
+<h1>King Lear: The Many Meanings of Nature</h1>
+
+<div class="matrix">
+    <div class="cell header-col">Scene</div>
+    <div class="cell header-col">Quotation</div>
+    <div class="cell header-col">Meaning of nature</div>
+
+    <div class="cell scene g1">1.1</div>
+    <div class="cell quote">“Where we our largest bounty may extend / Where nature doth with merit challenge”</div>
+    <div class="cell">Nature as ‘natural’ bonds between parents and children</div>
+
+    <div class="cell scene g2">1.1</div>
+    <div class="cell quote">“Which nor our nature or our place can bear”</div>
+    <div class="cell">Nature as someone’s character, their innate being</div>
+
+    <div class="cell scene g3">1.1</div>
+    <div class="cell quote">“A wretch whom nature is ashamed / Almost to t’acknowledge hers”</div>
+    <div class="cell"></div>
+
+    <div class="cell scene g4">1.2</div>
+    <div class="cell quote">“Thou, Nature, art my goddess; to thy law / My services are bound.”</div>
+    <div class="cell">Nature as ‘the law of the jungle’, opposed to custom and human morality</div>
+
+    <div class="cell scene g1">1.2</div>
+    <div class="cell quote">“Thou the wisdom of Nature can reason it thus and thus, yet nature finds itself scourged”</div>
+    <div class="cell">Natural science… the living world</div>
+
+    <div class="cell scene g2">1.4</div>
+    <div class="cell quote">“Hear, Nature, hear, dear Goddess, hear (…) Into her womb convey sterility”</div>
+    <div class="cell">Nature as creative force</div>
+
+    <div class="cell scene g3">2.2</div>
+    <div class="cell quote">“Nature in you stands on the very verge / Of her confine”</div>
+    <div class="cell">Nature as natural life</div>
+
+    <div class="cell scene g4">2.2</div>
+    <div class="cell quote">“Allow not nature more than nature needs, / Man’s life’s as cheap as beast’s.”</div>
+    <div class="cell">Nature as ‘the primitive condition before human society’ (Williams, <i>Keywords</i>)</div>
+
+    <div class="cell scene g1">3.2</div>
+    <div class="cell quote">“all shaking thunder / …Crack nature’s moulds, all germens spill at once”</div>
+    <div class="cell">Nature as order and generation</div>
+
+    <div class="cell scene g2">4.2</div>
+    <div class="cell quote">“That nature which contemns its origin / Cannot be bordered certain in itself.”</div>
+    <div class="cell"></div>
+
+    <div class="cell scene g3">4.6</div>
+    <div class="cell quote">“Thou hast one daughter / Who redeems nature from the general curse / Which twain have brought her to”</div>
+    <div class="cell">Nature as ‘an original innocence from which there has been a fall or curse’ (Williams, <i>Keywords</i>)</div>
+
+</div>
+
+</body>
+</html>
